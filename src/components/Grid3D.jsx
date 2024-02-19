@@ -18,22 +18,40 @@ const Grid3D = () => {
             <div style={{ width: "40%", marginTop: "50px" }}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm={6} lg={4}>
-                        <img src={image1} alt="Image 1" style={{ width: "150%", transform: isLargeScreen ? "translate(-35%, 15%)" : "none" }} />
+                        <img src={image1} alt="Image 1" style={{
+                            width: "150%", transform: isLargeScreen ? "translate(-35%, 15%)" :
+                                ((isTabletScreen || isMediumScreen) ? "translate(-35%, 15%)" : "none")
+                        }} />
                     </Grid>
                     <Grid item xs={12} sm={6} lg={4}>
-                        <img src={image2} alt="Image 2" style={{ width: "135%", transform: isLargeScreen ? "translateY(15%)" : ((isTabletScreen || isMediumScreen) ? "translateX(35%)" : "none") }} />
+                        <img src={image2} alt="Image 2" style={{
+                            width: "135%", transform: isLargeScreen ? "translateY(15%)" :
+                                ((isTabletScreen || isMediumScreen) ? "translateX(15%)" : "none")
+                        }} />
                     </Grid>
                     <Grid item xs={12} sm={6} lg={4}>
-                        <img src={image3} alt="Image 3" style={{ width: "110%", transform: isLargeScreen ? "translateX(35%)" : "none" }} />
+                        <img src={image3} alt="Image 3" style={{
+                            width: "110%", transform: isLargeScreen ? "translateX(35%)" :
+                                ((isTabletScreen || isMediumScreen) ? "translateX(35%)" : "none")
+                        }} />
                     </Grid>
                     <Grid item xs={12} sm={6} lg={4}>
-                        <img src={image4} alt="Image 4" style={{ width: "110%", transform: isLargeScreen ? "translate(-20%, -10%)" : ((isTabletScreen || isMediumScreen) ? "translateX(35%)" : "none") }} />
+                        <img src={image4} alt="Image 4" style={{
+                            width: "110%", transform: isLargeScreen ? "translate(-20%, -10%)" :
+                                ((isTabletScreen || isMediumScreen) ? "translate(-20%)" : "none")
+                        }} />
                     </Grid>
                     <Grid item xs={12} sm={6} lg={4}>
-                        <img src={image5} alt="Image 5" style={{ width: "115%", transform: isLargeScreen ? "translate(5%, -10%)" : "none" }} />
+                        <img src={image5} alt="Image 5" style={{
+                            width: "115%", transform: isLargeScreen ? "translate(5%, -10%)" :
+                                ((isTabletScreen || isMediumScreen) ? "translate(5%, -10%)" : "none")
+                        }} />
                     </Grid>
                     <Grid item xs={12} sm={6} lg={4}>
-                        <img src={image6} alt="Image 6" style={{ width: "110%", transform: isLargeScreen ? "translate(35%)" : ((isTabletScreen || isMediumScreen) ? "translateX(35%)" : "none") }} />
+                        <img src={image6} alt="Image 6" style={{
+                            width: "110%", transform: isLargeScreen ? "translate(35%)" :
+                                ((isTabletScreen || isMediumScreen) ? "translate(35%)" : "none")
+                        }} />
                     </Grid>
                 </Grid>
             </div>
