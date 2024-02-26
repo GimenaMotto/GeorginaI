@@ -4,9 +4,18 @@ body {
   background-color: #f0ede6;
 }
 
+/* Oculta las barras de desplazamiento */
+::-webkit-scrollbar {
+  display: none;
+}
+
 #root {
   height: 100vh;
   width: 100vw;
+  overflow-y: scroll;
+  /* Agrega desplazamiento vertical */
+  overflow-x: hidden;
+  /* Oculta el desplazamiento horizontal */
 }
 
 .App {

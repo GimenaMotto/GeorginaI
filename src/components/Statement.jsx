@@ -3,17 +3,18 @@ import { Typography } from '@mui/material';
 
 const Statement = () => {
     return (
-        <div style={{ margin: '60px auto 20px', maxWidth: '1000px' }}>
+        <div style={{ margin: '80px auto 20px', maxWidth: '80%' }}>
             <Typography
                 variant='h5'
                 sx={{
                     fontFamily: 'Geologica',
                     fontWeight: 300,
-                    fontSize: '1.2rem',
+                    fontSize: '1.1rem',
                     // textAlign: 'center',
                     justifyContent: 'center',
                     color: '#104d6c',
-                    textIndent: '20px', // Añadir sangría
+                    textIndent: '40px',
+                    lineHeight: 1.5,
                 }}
                 className='statement'
             >

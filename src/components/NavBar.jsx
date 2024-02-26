@@ -45,11 +45,11 @@ const NavBar = () => {
                         <Box sx={{ display: 'flex', flexDirection: 'row', mr: isLargeScreen ? 12 : (isMediumScreen || isTabletScreen) ? 12 : 0 }}>
                             <NavBoxCircle to='/2D' />
                             <NavBoxCircle to='/3D' />
-                            <NavBoxCircle to='/' />
-                            <NavBoxCircle to='/' />
-                            <NavBoxCircle to='/' />
+                            <NavBoxCircle to='/Curadurías' />
+                            <NavBoxCircle to='/Txts' />
+                            <NavBoxCircle to='/Bio' />
                             <NavBoxCircle to='/Statement' />
-                            <NavBoxCircle to='/' />
+                            <NavBoxCircle to='/Contacto' />
                         </Box>
                     </Box>
 
