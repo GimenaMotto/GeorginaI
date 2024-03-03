@@ -1,5 +1,4 @@
 import React from "react"
-// import './Page2D.css'
 
 
 const Page2D = () => {

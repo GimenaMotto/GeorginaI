@@ -4,6 +4,7 @@ import { Grid, useMediaQuery, useTheme } from "@mui/material";
 import image1 from "../images/flyers3D/1.png";
 import image2 from "../images/flyers3D/2.png";
 import image3 from "../images/flyers3D/3.jpg";
+import image32 from "../images/flyers3D/3.4.jpg"
 import image33 from '../images/flyers3D/3.5.jpg'
 import image4 from "../images/flyers3D/4.jpg";
 import image5 from "../images/flyers3D/5.jpg";
@@ -58,13 +59,13 @@ const Grid3D = () => {
                 <div style={{ width: "40%", marginTop: "50px" }}>
                     <Grid container spacing={2}>
 
-                        <Grid item xs={12} sm={6} lg={4}>
+                        <Grid item xs={12} sm={6} lg={3}>
                             <Link to="/3D/Megustótodo">
                                 <div
                                     style={{
                                         position: "relative",
-                                        width: "150%",
-                                        transform: isLargeScreen ? "translate(-38%, 33%)" : ((isTabletScreen || isMediumScreen) ? "translate(0%, 0%)" : "translate(0%, 0%)"),
+                                        width: "210%",
+                                        transform: isLargeScreen ? "translate(-90%, 40%)" : ((isTabletScreen || isMediumScreen) ? "translate(0%, 0%)" : "translate(0%, 0%)"),
                                         backgroundColor: "#df8f98",
                                         overflow: "hidden",
                                         transition: "background-color 0.3s, opacity 0.3s",
@@ -103,12 +104,12 @@ const Grid3D = () => {
                         </Grid>
 
 
-                        <Grid item xs={12} sm={6} lg={4}>
-                            <Link to="/">
+                        <Grid item xs={12} sm={6} lg={3}>
+                            <Link to="/3D/WelcomeLaFlorida">
                                 <div
                                     style={{
                                         position: "relative",
-                                        width: "140%", transform: isLargeScreen ? "translate(0%,27%)" :
+                                        width: "200%", transform: isLargeScreen ? "translate(-40%,30%)" :
                                             ((isTabletScreen || isMediumScreen) ? "translate(0%,0%)" : "translate(0%,0%)"),
                                         backgroundColor: "#df8f98",
                                         overflow: "hidden",
@@ -146,12 +147,12 @@ const Grid3D = () => {
                                 </div>
                             </Link>
                         </Grid>
-                        <Grid item xs={12} sm={6} lg={4}>
-                            <Link to="/">
+                        <Grid item xs={12} sm={6} lg={3}>
+                            <Link to="/3D/MakeOverPasto">
                                 <div
                                     style={{
                                         position: "relative",
-                                        width: "105%", transform: isLargeScreen ? "translate(45%, 5%)" :
+                                        width: "150%", transform: isLargeScreen ? "translate(15%, 5%)" :
                                             ((isTabletScreen || isMediumScreen) ? "translate(0%,0%)" : "translate(0%,0%)"),
                                         backgroundColor: "#df8f98",
                                         overflow: "hidden",
@@ -184,6 +185,49 @@ const Grid3D = () => {
                                             Makeover - Pasto <br />
                                             Buenos Aires, Argentina <br />
                                             2013
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Grid>
+                        <Grid item xs={12} sm={6} lg={3}>
+                            <Link to="/3D/Kmdedistancia">
+                                <div
+                                    style={{
+                                        position: "relative",
+                                        width: "220%", transform: isLargeScreen ? "translate(35%, 25%)" :
+                                            ((isTabletScreen || isMediumScreen) ? "translate(0%,0%)" : "translate(0%,0%)"),
+                                        backgroundColor: "#df8f98",
+                                        overflow: "hidden",
+                                        transition: "background-color 0.3s, opacity 0.3s",
+                                        cursor: "pointer",
+                                    }}
+                                    onMouseEnter={handleImageHover}
+                                    onMouseLeave={handleImageLeave}
+                                >
+                                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                        <img
+                                            src={image32}
+                                            alt="Image 32"
+                                            style={{
+                                                width: "100%",
+                                                display: "block",
+                                            }}
+                                        />
+                                        <p
+                                            style={{
+                                                position: "absolute",
+                                                fontFamily: "Geologica, sans-serif",
+                                                fontWeight: 300,
+                                                textAlign: "center",
+                                                color: "#f0ede6",
+                                                fontSize: "18px",
+                                                zIndex: -1,
+                                            }}
+                                        >
+                                            Km de distancia <br />
+                                            Lugar, Bolivia <br />
+                                            2011
                                         </p>
                                     </div>
                                 </div>
