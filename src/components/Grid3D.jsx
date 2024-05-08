@@ -234,7 +234,7 @@ const Grid3D = () => {
                             </Link>
                         </Grid>
                         <Grid item xs={12} sm={6} lg={3}>
-                            <Link to="/">
+                            <Link to="/3D/EstaciónPrimavera">
                                 <div
                                     style={{
                                         position: "relative",
@@ -277,7 +277,7 @@ const Grid3D = () => {
                             </Link>
                         </Grid>
                         <Grid item xs={12} sm={6} lg={3}>
-                            <Link to="/">
+                            <Link to="/3D/NuncaUnVeranoJuntos">
                                 <div
                                     style={{
                                         position: "relative",
@@ -321,7 +321,7 @@ const Grid3D = () => {
 
                         </Grid>
                         <Grid item xs={12} sm={6} lg={3}>
-                            <Link to="/">
+                            <Link to="/3D/Campin">
                                 <div
                                     style={{
                                         position: "relative",
@@ -365,7 +365,7 @@ const Grid3D = () => {
 
                         </Grid>
                         <Grid item xs={12} sm={6} lg={3}>
-                            <Link to="/">
+                            <Link to="/3D/MiSuegraMeMataDeRisa">
                                 <div
                                     style={{
                                         position: "relative",

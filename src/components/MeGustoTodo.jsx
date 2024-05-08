@@ -54,7 +54,9 @@ const MeGustoTodo = () => {
                     <CardContent style={{ maxWidth: '100%', overflowY: 'auto' }}>
 
                         <Typography variant="h5" sx={{ fontFamily: 'Geologica', fontWeight: 300, fontSize: '1.1rem', color: '#104d6c', lineHeight: 1.4, wordWrap: 'break-word' }}>
-                            UN HEROÍSMO DE LA INTIMIDAD
+                            ME GUSTÓ TODO
+                            <br /><br />
+                            Un heroísmo de la intimidad
                             <br /><br />
                             Una receta de cocina, un diagrama para tejer una prenda, un arreglo floral sencillo, un mapa de la Madre Patria cultural. Las obras de Georgina Ieraci en Me Gustó Todo parecen constituir, a simple vista, el mero homenaje a un ser querido y ausente.
                             Con sus trazos casi invisibles y sus gestos mínimos, los dibujos y objetos hablan de lo que esa persona hizo por ella, es decir, cimentar una sensibilidad basada en el amor por lo pequeño y muchas veces imperceptible. Sin embargo, en una instancia más esencial, señalan la importancia cósmica de recuperar y atesorar esa sensibilidad como un valor, como una forma de estar en el mundo y construir la realidad.
@@ -65,7 +67,7 @@ const MeGustoTodo = () => {
                         </Typography>
 
                         {/* Flechas de navegación lado a lado encima de las imágenes */}
-                        <div style={{ display: 'flex', marginTop: '40px', }}>
+                        <div style={{ display: 'flex', marginTop: '20px', }}>
                             <IconButton onClick={goToPreviousSlide}><NavigateBefore /></IconButton>
                             <IconButton onClick={goToNextSlide}><NavigateNext /></IconButton>
                         </div>

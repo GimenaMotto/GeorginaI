@@ -8,8 +8,10 @@ import MakeOverPasto from "../components/MakeOverPasto"
 import Kmdedistancia from "../components/Kmdedistancia"
 import Bio from "../components/Bio";
 import Statement from "../components/Statement";
-
-
+import NuncaUnVeranoJuntos from "../components/NuncaUnVeranoJuntos"
+import EstacionPrimavera from "../components/EstacionPrimavera"
+import Campin from "../components/Campin"
+import MiSuegraMeMataDeRisa from "../components/MiSuegraMeMataDeRisa"
 
 
 
@@ -25,6 +27,10 @@ const AppRoutes = () => {
             <Route path="/3D/WelcomeLaFlorida" element={<WelcomeLaFlorida />}></Route >
             <Route path="/3D/MakeOverPasto" element={<MakeOverPasto />}></Route >
             <Route path="/3D/Kmdedistancia" element={<Kmdedistancia />}></Route >
+            <Route path="/3D/EstaciónPrimavera" element={<EstacionPrimavera />}></Route >
+            <Route path="/3D/Campin" element={<Campin />}></Route >
+            <Route path="/3D/NuncaUnVeranoJuntos" element={<NuncaUnVeranoJuntos />}></Route >
+            <Route path="/3D/MiSuegraMeMataDeRisa" element={<MiSuegraMeMataDeRisa />}></Route >
 
             <Route path="/Bio" element={<Bio />}></Route>
             <Route path="/Statement" element={<Statement />}></Route>

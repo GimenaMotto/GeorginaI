@@ -64,9 +64,9 @@ const Kmdedistancia = () => {
                 <Card variant="outlined" style={{ maxWidth: '80%', margin: '0 auto', backgroundColor: '#f0ede6', border: 'none' }}>
 
                     <CardContent style={{ maxWidth: '100%', overflowY: 'auto' }}>
-
-                        {/* Contenido del texto */}
                         <Typography variant="h5" sx={{ fontFamily: 'Geologica', fontWeight: 300, fontSize: '1.1rem', color: '#104d6c', lineHeight: 1.4, wordWrap: 'break-word' }}>
+                            KM DE DISTANCIA
+                            <br /><br />
                             ¿Cuál es la distancia para mirar las cosas? ¿Cómo se mide? ¿De qué distancia hablamos?
                             Viajar de un lugar a otro implica una distancia, un punto de partida: Rosario, Argentina y un punto de llegada: Santa Cruz de la Sierra, Bolivia.
                             De aquí en más todo lo que suceda puede ser leído como un recorrido narrativo – afectivo.
