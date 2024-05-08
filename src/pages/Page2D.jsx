@@ -1,12 +1,13 @@
 import React from "react"
-
+import Grid2D from "../components/Grid2D"
 
 const Page2D = () => {
     return (
 
         <div className="Page2D">
 
-            <h1>holi 2d</h1>
+            <Grid2D />
+
         </div>
     )
 }
