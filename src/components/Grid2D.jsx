@@ -16,7 +16,7 @@ const Grid2D = () => {
     const squareStyle2 = {
         width: '200px', // Tamaño del cuadrado
         height: '200px', // Tamaño del cuadrado
-        backgroundColor: '#df8f98', // Fondo rosa
+        backgroundColor: '#f9c1c3', // Fondo rosa
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -24,7 +24,7 @@ const Grid2D = () => {
     };
 
     const textStyle1 = {
-        color: '#df8f98',// Letra rosa
+        color: '#f9c1c3',// Letra rosa
         fontFamily: 'Geologica, sans-serif',
         fontWeight: 300,
         textAlign: 'center',
@@ -44,7 +44,7 @@ const Grid2D = () => {
             <Grid container spacing={1} justifyContent="center">
                 {/* Cuadrados con texto */}
                 <Grid item>
-                    <Link to="/ruta_imagen1" style={{ textDecoration: 'none' }}>
+                    <Link to="/2D/HomeMaybe" style={{ textDecoration: 'none' }}>
                         <div style={squareStyle1}>
                             <Typography variant="body1" style={textStyle1}>
                                 HOME MAYBE
@@ -53,7 +53,7 @@ const Grid2D = () => {
                     </Link>
                 </Grid>
                 <Grid item>
-                    <Link to="/ruta_imagen2" style={{ textDecoration: 'none' }}>
+                    <Link to="/2D/AmiBibliotecaLeCrecenPlantas" style={{ textDecoration: 'none' }}>
                         <div style={squareStyle2}>
                             <Typography variant="body1" style={textStyle2}>
                                 A MI BIBLIOTECA LE CRECEN PLANTAS
@@ -62,7 +62,7 @@ const Grid2D = () => {
                     </Link>
                 </Grid>
                 <Grid item>
-                    <Link to="/ruta_imagen3" style={{ textDecoration: 'none' }}>
+                    <Link to="/2D/Croquis" style={{ textDecoration: 'none' }}>
                         <div style={squareStyle1}>
                             <Typography variant="body1" style={textStyle1}>
                                 CROQUIS
@@ -71,7 +71,7 @@ const Grid2D = () => {
                     </Link>
                 </Grid>
                 <Grid item>
-                    <Link to="/ruta_imagen4" style={{ textDecoration: 'none' }}>
+                    <Link to="/2D/LaCasaFinal" style={{ textDecoration: 'none' }}>
                         <div style={squareStyle2}>
                             <Typography variant="body1" style={textStyle2}>
                                 LA CASA FINAL
@@ -80,7 +80,7 @@ const Grid2D = () => {
                     </Link>
                 </Grid>
                 <Grid item>
-                    <Link to="/ruta_imagen5" style={{ textDecoration: 'none' }}>
+                    <Link to="/2D/Precario" style={{ textDecoration: 'none' }}>
                         <div style={squareStyle1}>
                             <Typography variant="body1" style={textStyle1}>
                                 PRECARIO
@@ -89,7 +89,7 @@ const Grid2D = () => {
                     </Link>
                 </Grid>
                 <Grid item>
-                    <Link to="/ruta_imagen6" style={{ textDecoration: 'none' }}>
+                    <Link to="/2D/TemporadaEnRosario" style={{ textDecoration: 'none' }}>
                         <div style={squareStyle2}>
                             <Typography variant="body1" style={textStyle2}>
                                 TEMPORADA EN ROSARIO

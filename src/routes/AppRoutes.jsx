@@ -12,6 +12,12 @@ import NuncaUnVeranoJuntos from "../components/NuncaUnVeranoJuntos"
 import EstacionPrimavera from "../components/EstacionPrimavera"
 import Campin from "../components/Campin"
 import MiSuegraMeMataDeRisa from "../components/MiSuegraMeMataDeRisa"
+import HomeMaybe from "../components/HomeMaybe"
+import Croquis from "../components/Croquis"
+import LaCasaFinal from "../components/LaCasaFinal"
+import Precario from "../components/Precario"
+import TemporadaEnRosario from "../components/TemporadaEnRosario"
+import AmiBiblioteca from "../components/AmiBiblioteca"
 
 
 
@@ -22,6 +28,12 @@ const AppRoutes = () => {
         <Routes>
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/2D" element={<Page2D />}></Route>
+            <Route path="/2D/HomeMaybe" element={<HomeMaybe />}></Route>
+            <Route path="/2D/AmiBibliotecaLeCrecenPlantas" element={<AmiBiblioteca />}></Route>
+            <Route path="/2D/Croquis" element={<Croquis />}></Route>
+            <Route path="/2D/LaCasaFinal" element={<LaCasaFinal />}></Route>
+            <Route path="/2D/Precario" element={<Precario />}></Route>
+            <Route path="/2D/TemporadaEnRosario" element={<TemporadaEnRosario />}></Route>
             <Route path="/3D" element={<Page3D />}></Route>
             <Route path="/3D/Megustótodo" element={<MeGustoTodo />}></Route >
             <Route path="/3D/WelcomeLaFlorida" element={<WelcomeLaFlorida />}></Route >
