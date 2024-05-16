@@ -11,7 +11,7 @@ const AmiBiblioteca = () => {
         // Después de 2 segundos, mostrar el video
         const timeout = setTimeout(() => {
             setShowVideo(true);
-        }, 500);
+        }, 1000);
 
         // Limpiar el timeout al desmontar el componente
         return () => clearTimeout(timeout);

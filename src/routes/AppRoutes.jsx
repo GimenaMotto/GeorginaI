@@ -18,7 +18,8 @@ import LaCasaFinal from "../components/LaCasaFinal"
 import Precario from "../components/Precario"
 import TemporadaEnRosario from "../components/TemporadaEnRosario"
 import AmiBiblioteca from "../components/AmiBiblioteca"
-
+import CuraduriasPage from "../pages/CuraduriasPage"
+import GridMonoambiente from "../components/GridMonoambiente"
 
 
 const AppRoutes = () => {
@@ -44,6 +45,8 @@ const AppRoutes = () => {
             <Route path="/3D/NuncaUnVeranoJuntos" element={<NuncaUnVeranoJuntos />}></Route >
             <Route path="/3D/MiSuegraMeMataDeRisa" element={<MiSuegraMeMataDeRisa />}></Route >
 
+            <Route path="/Curadurías" element={<CuraduriasPage />}></Route>
+            <Route path="/Curadurías/Monoambiente" element={<GridMonoambiente />}></Route>
             <Route path="/Bio" element={<Bio />}></Route>
             <Route path="/Statement" element={<Statement />}></Route>
 
