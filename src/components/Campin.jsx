@@ -69,7 +69,7 @@ const Campin = () => {
 
     return (
         imagesLoaded && (
-            <div style={{ margin: '30px auto 0px', maxWidth: '100%', overflowX: 'hidden' }}>
+            <div style={{ margin: '30px auto 0px', maxWidth: '100%', overflowX: 'hidden', marginLeft: "90px" }}>
                 <Card variant="outlined" style={{ maxWidth: '80%', margin: '0 auto', backgroundColor: '#f0ede6', border: 'none', display: 'flex' }}>
                     <CardContent style={{ maxWidth: '50%', overflowY: 'auto', marginRight: '20px', marginTop: '30px' }}>
                         <Typography variant="h5" sx={{ fontFamily: 'Geologica', fontWeight: 300, fontSize: '1.1rem', color: '#104d6c', lineHeight: 1.4, wordWrap: 'break-word' }}>

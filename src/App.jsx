@@ -6,6 +6,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import './App.css';
 
+
 const App = () => {
 
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <PerfectScrollbar>
         <NavBar />
         <AppRoutes />
+
       </PerfectScrollbar>
 
     </div>

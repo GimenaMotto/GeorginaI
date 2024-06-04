@@ -19,8 +19,10 @@ import Precario from "../components/Precario"
 import TemporadaEnRosario from "../components/TemporadaEnRosario"
 import AmiBiblioteca from "../components/AmiBiblioteca"
 import CuraduriasPage from "../pages/CuraduriasPage"
-import GridMonoambiente from "../components/GridMonoambiente"
-
+import Monoambiente from "../components/Monoambiente";
+import InneMartino from "../components/InneMartino"
+import ÁngelesAscuaMayo from "../components/ÁngelesAscuaMayo"
+import VirNegri from "../components/VirNegri"
 
 const AppRoutes = () => {
 
@@ -46,7 +48,10 @@ const AppRoutes = () => {
             <Route path="/3D/MiSuegraMeMataDeRisa" element={<MiSuegraMeMataDeRisa />}></Route >
 
             <Route path="/Curadurías" element={<CuraduriasPage />}></Route>
-            <Route path="/Curadurías/Monoambiente" element={<GridMonoambiente />}></Route>
+            <Route path="/Curadurías/Monoambiente" element={<Monoambiente />}></Route>
+            <Route path="/Curadurías/Monoambiente/InneMartino" element={<InneMartino />}></Route>
+            <Route path="/Curadurías/Monoambiente/ÁngelesAscuaMayo" element={<ÁngelesAscuaMayo />}></Route>
+            <Route path="/Curadurías/Monoambiente/VirNegri" element={<VirNegri />}></Route>
             <Route path="/Bio" element={<Bio />}></Route>
             <Route path="/Statement" element={<Statement />}></Route>
 

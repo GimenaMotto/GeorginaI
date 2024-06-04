@@ -48,7 +48,7 @@ const MeGustoTodo = () => {
 
     return (
         imagesLoaded && (
-            <div style={{ margin: '60px auto 20px', maxWidth: '100%', overflowX: 'hidden' }}>
+            <div style={{ margin: '60px auto 20px', maxWidth: '100%', overflowX: 'hidden', marginLeft: "90px" }}>
                 <Card variant="outlined" style={{ maxWidth: '80%', margin: '0 auto', backgroundColor: '#f0ede6', border: 'none' }}>
 
                     <CardContent style={{ maxWidth: '100%', overflowY: 'auto' }}>
@@ -72,12 +72,12 @@ const MeGustoTodo = () => {
                             <IconButton onClick={goToNextSlide}><NavigateNext /></IconButton>
                         </div>
                         {/* Contenedor de la imagen actual */}
-                        <div id="currentImage" style={{ textAlign: 'center', marginTop: '10px', overflow: 'hidden', width: '50%', height: 'auto' }}>
+                        <div id="currentImage" style={{ marginTop: '10px', overflow: 'hidden', width: '100%', height: 'auto' }}>
                             {/* Imagen actual */}
-                            {currentIndex === 0 && <img src={image1} alt="Image 1" style={{ maxWidth: '100%', height: 'auto', objectFit: 'cover' }} />}
-                            {currentIndex === 1 && <img src={image2} alt="Image 2" style={{ maxWidth: '100%', height: 'auto', objectFit: 'cover' }} />}
-                            {currentIndex === 2 && <img src={image3} alt="Image 3" style={{ maxWidth: '100%', height: 'auto', objectFit: 'cover' }} />}
-                            {currentIndex === 3 && <img src={image4} alt="Image 4" style={{ maxWidth: '100%', height: 'auto', objectFit: 'cover' }} />}
+                            {currentIndex === 0 && <img src={image1} alt="Image 1" style={{ maxWidth: '50%', height: 'auto', objectFit: 'cover' }} />}
+                            {currentIndex === 1 && <img src={image2} alt="Image 2" style={{ maxWidth: '50%', height: 'auto', objectFit: 'cover' }} />}
+                            {currentIndex === 2 && <img src={image3} alt="Image 3" style={{ maxWidth: '50%', height: 'auto', objectFit: 'cover' }} />}
+                            {currentIndex === 3 && <img src={image4} alt="Image 4" style={{ maxWidth: '50%', height: 'auto', objectFit: 'cover' }} />}
                         </div>
 
                     </CardContent>

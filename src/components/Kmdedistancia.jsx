@@ -60,7 +60,7 @@ const Kmdedistancia = () => {
 
     return (
         imagesLoaded && (
-            <div style={{ margin: '60px auto 20px', maxWidth: '100%', overflowX: 'hidden', display: 'flex', justifyContent: 'center' }}>
+            <div style={{ margin: '60px auto 20px', maxWidth: '100%', overflowX: 'hidden', display: 'flex', justifyContent: 'center', marginLeft: "90px" }}>
                 <Card variant="outlined" style={{ maxWidth: '80%', margin: '0 auto', backgroundColor: '#f0ede6', border: 'none' }}>
 
                     <CardContent style={{ maxWidth: '100%', overflowY: 'auto' }}>

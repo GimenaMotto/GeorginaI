@@ -18,7 +18,7 @@ const AmiBiblioteca = () => {
     }, []);
 
     return (
-        <div style={{ margin: '60px auto 20px', maxWidth: '100%', overflowX: 'hidden' }}>
+        <div style={{ margin: '60px auto 20px', maxWidth: '100%', overflowX: 'hidden', marginLeft: "90px" }}>
             <Card variant="outlined" style={{ maxWidth: '80%', margin: '0 auto', backgroundColor: '#f0ede6', border: 'none' }}>
                 <CardContent style={{ maxWidth: '100%', overflowY: 'auto', position: 'relative' }}>
                     <Typography variant="h5" sx={{ fontFamily: 'Geologica', fontWeight: 300, fontSize: '1.1rem', color: '#104d6c', lineHeight: 1.4, wordWrap: 'break-word' }}>
